@@ -1,0 +1,15 @@
+body {
+    background-image: url('../images/circles-dark/circles-dark.png')
+}
+
+h1 {
+    font-family: 'Pirata One', cursive;
+    font-size: 50px;
+    color: #385679;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #402D1C;
+}
