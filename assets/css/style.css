@@ -8,8 +8,17 @@ h1 {
     color: #385679;
 }
 
+.container {
+    background-color: #eeee;
+    padding: 15px;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color: #402D1C;
+}
+
+#lose-text {
+    color: #400A14;
 }

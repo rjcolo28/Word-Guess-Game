@@ -6,28 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hangman's Shanty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Pirata+One" rel="stylesheet">
     <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
-    <h1>Hangman's Shanty</h1>
-    <div>
-        <p id="story-text">
-            You're a pirate captain whose ship been captured by the Royal Navy. You and your crew face
-            execution at the gallows, but the commodore gives you a chance to save your subordinates. All you have to
-            do is guess the word he is thinking. Guess correctly in within ten attempts and you save your
-            mate. Lose and he shall hang in the gallows.
-        </p>
-        <p id="directions-text">Press any key to get started!</p>
-        <p id="word"></p>
-        <p id="guesses-remaining">Attempts left: </p>
-        <p id="category-text"></p>
-        <p id="used-letters">Used Letters: </p>
-        <p id="wins-text">Another mate is saved!</p>
-        <p id="wins-tracker">Crew members saved: </p>
-        <p id="lose-text">You lose! Hang the pirate!</p>
+    <div class="container">
+        <h1>Hangman's Shanty</h1>
+            <div>
+                <p id="story-text">
+                    You're a pirate captain whose ship been captured by the Royal Navy. You and your mates face
+                    execution at the gallows, but the commodore gives you a chance to save each member of your crew. All you
+                    have to do is guess the word he is thinking. Guess correctly within ten attempts and you save your
+                    mate. Lose and he shall hang in the gallows.
+                </p>
+                <p id="directions-text">Press any key to get started!</p>
+                <p id="word"></p>
+                <p id="guesses-remaining">Attempts left: </p>
+                <p id="category-text"></p>
+                <p id="used-letters">Used Letters: </p>
+                <p id="wins-text">Another mate is saved!</p>
+                <p id="wins-tracker">Crew members saved: </p>
+                <p id="lose-text">You lose! Hang the pirate!</p>
+            </div>
     </div>
 </body>
 
